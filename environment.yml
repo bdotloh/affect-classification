@@ -1,0 +1,34 @@
+name: emotion-vectors
+channels:
+  - default
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - bertopic
+    - git+https://github.com/TutteInstitute/vectorizers.git
+    - gdown
+    - nbval
+    - nbdime
+    - umap-learn
+    - transformers
+    - datasets
+    - plotly==5.11.0
+    - wandb
+  - setuptools
+  - wheel
+  - sphinx
+  - bokeh
+  - click
+  - colorcet
+  - coverage
+  - coveralls
+  - datashader
+  - holoviews
+  - jupyter
+  - matplotlib
+  - pandas   
+  - seaborn 
+  - scikit-image
+  - pytorch
