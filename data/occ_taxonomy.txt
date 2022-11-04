@@ -1,0 +1,50 @@
+external = ('trusting', 'guilty')
+
+internal_aff_pos_1 = (
+    'content', 'grateful',
+    
+    )
+
+internal_aff_pos_2 = (
+    'joyful', 'proud', 'excited'
+)
+
+internal_aff_neg_1 = (
+    'angry','annoyed','furious'
+)
+
+internal_aff_neg_2 = (
+    'afraid','terrified'
+)
+
+internal_aff_neg_3 = (
+    'sad','lonely', 'disappointed', 'devastated'
+)
+
+internal_aff_neg_4 = (
+    'anxious', 'ashamed', 'disgusted', 'embarrassed',
+    )
+
+internal_aff_cog = ('sentimental', 'nostalgic', 'jealous')
+internal_beh_cog = ('caring', 'faithful','prepared','apprehensive')
+internal_cog = ('anticipating','confident','hopeful','impressed','surprised')
+
+color_key = {}
+for word in internal_aff_neg_1:
+    color_key[word] = '#ba2222'
+for word in internal_aff_neg_2:
+    color_key[word] = '#840994'
+for word in internal_aff_neg_3:
+    color_key[word] = '#2e2e30'
+for word in internal_aff_neg_4:
+    color_key[word] = '#2e2e30'
+for word in internal_aff_pos:
+    color_key[word] = '#2e2e30'
+for word in internal_aff_cog:
+    color_key[word] = '#66f0f2'
+for word in internal_beh_cog:
+    color_key[word] = '#e966f2'
+for word in internal_cog:
+    color_key[word] = '#66f274'
+for word in external:
+    color_key[word] = '#f0f5f5'

@@ -1,0 +1,386 @@
+Loading data from: data/atomic/processed/generation/categories_oEffect#oReact#oWant#xAttr#xEffect#xIntent#xNeed#xReact#xWant-maxe1_17-maxe2_35-maxr_1.pickle
+52
+
+ personX feels afraid 
+
+oEffect :  ['none', 'they are scared']
+oReact :  ['none', 'worried']
+oWant :  ['none', 'to help them']
+xAttr :  ['scared', 'nervous']
+xEffect :  ['cries', 'trembles']
+xIntent :  ['none', 'to be safe']
+xNeed :  ['none', 'to have lost their job']
+xReact :  ['scared', 'nervous']
+xWant :  ['to cry', 'to hide']
+
+ personX feels angry 
+
+oEffect :  ['none', 'they are hurt']
+oReact :  ['none', 'scared']
+oWant :  ['none', 'to apologize']
+xAttr :  ['emotional', 'angry']
+xEffect :  ['gets in a fight', 'yells']
+xIntent :  ['none', 'to be angry']
+xNeed :  ['none', 'to have lost something']
+xReact :  ['angry', 'upset']
+xWant :  ['to calm down', 'calm down']
+
+ personX feels annoyed 
+
+oEffect :  ['none', 'they get yelled at']
+oReact :  ['none', 'annoyed']
+oWant :  ['none', 'to apologize']
+xAttr :  ['annoyed', 'irritated']
+xEffect :  ['none', 'gets yelled at']
+xIntent :  ['none', 'to be annoyed']
+xNeed :  ['none', 'to be annoyed']
+xReact :  ['annoyed', 'frustrated']
+xWant :  ['to get away from the situation', 'to be left alone']
+
+ personX feels anticipating 
+
+oEffect :  ['none', 'they get a good grade']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to do something else']
+xAttr :  ['eager', 'excited']
+xEffect :  ['none', 'smiles']
+xIntent :  ['none', 'to be prepared']
+xNeed :  ['none', 'to have a goal']
+xReact :  ['excited', 'happy']
+xWant :  ['to get it over with', 'to get a good grade']
+
+ personX feels anxious 
+
+oEffect :  ['none', 'they help them']
+oReact :  ['none', 'worried']
+oWant :  ['none', 'to help them']
+xAttr :  ['anxious', 'nervous']
+xEffect :  ['sweats', 'frowns']
+xIntent :  ['none', 'to be safe']
+xNeed :  ['none', 'to have a bad day']
+xReact :  ['anxious', 'worried']
+xWant :  ['to calm down', 'to relax']
+
+ personX feels apprehensive 
+
+oEffect :  ['none', 'they are asked to leave']
+oReact :  ['none', 'worried']
+oWant :  ['none', 'to help them']
+xAttr :  ['nervous', 'anxious']
+xEffect :  ['shakes', 'none']
+xIntent :  ['none', 'to be cautious']
+xNeed :  ['none', 'to have a bad experience']
+xReact :  ['nervous', 'anxious']
+xWant :  ['to calm down', 'to relax']
+
+ personX feels ashamed 
+
+oEffect :  ['none', 'they are surprised']
+oReact :  ['none', 'ashamed']
+oWant :  ['none', 'to help them']
+xAttr :  ['ashamed', 'embarrassed']
+xEffect :  ['cries', 'none']
+xIntent :  ['none', 'to be better']
+xNeed :  ['none', 'to have done something wrong']
+xReact :  ['ashamed', 'embarrassed']
+xWant :  ['to hide', 'apologize']
+
+ personX feels caring 
+
+oEffect :  ['none', 'gets thanked']
+oReact :  ['none', 'loved']
+oWant :  ['none', 'to help personx']
+xAttr :  ['compassionate', 'caring']
+xEffect :  ['none', 'smiles']
+xIntent :  ['none', 'to be compassionate']
+xNeed :  ['none', 'to have a good heart']
+xReact :  ['happy', 'caring']
+xWant :  ['to show empathy', 'to be compassionate']
+
+ personX feels confident 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'impressed']
+oWant :  ['none', 'to congratulate personx']
+xAttr :  ['confident', 'proud']
+xEffect :  ['none', 'smiles']
+xIntent :  ['none', 'to be confident']
+xNeed :  ['none', 'to have a good attitude']
+xReact :  ['confident', 'proud']
+xWant :  ['to be successful', 'to win']
+
+ personX feels content 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to congratulate him']
+xAttr :  ['content', 'happy']
+xEffect :  ['smiles', 'none']
+xIntent :  ['none', 'to be content']
+xNeed :  ['none', 'to have a good day']
+xReact :  ['content', 'happy']
+xWant :  ['to relax', 'relax']
+
+ personX feels devastated 
+
+oEffect :  ['none', 'cries']
+oReact :  ['none', 'sad']
+oWant :  ['none', 'to console him']
+xAttr :  ['depressed', 'sad']
+xEffect :  ['cries', 'gets depressed']
+xIntent :  ['none', 'to be alone']
+xNeed :  ['none', 'to have lost something']
+xReact :  ['sad', 'depressed']
+xWant :  ['to cry', 'cry']
+
+ personX feels disappointed 
+
+oEffect :  ['none', 'they cry']
+oReact :  ['none', 'sad']
+oWant :  ['none', 'to make up for it']
+xAttr :  ['depressed', 'sad']
+xEffect :  ['cries', 'frowns']
+xIntent :  ['none', 'to be disappointed']
+xNeed :  ['none', 'to have lost something']
+xReact :  ['sad', 'upset']
+xWant :  ['to cry', 'cry']
+
+ personX feels disgusted 
+
+oEffect :  ['none', 'they get yelled at']
+oReact :  ['none', 'disgusted']
+oWant :  ['none', 'to apologize']
+xAttr :  ['disgusted', 'angry']
+xEffect :  ['none', 'gets sick']
+xIntent :  ['none', 'to be disgusted']
+xNeed :  ['none', 'to see something disgusting']
+xReact :  ['disgusted', 'angry']
+xWant :  ['to get away from the situation', 'to get away from the place']
+
+ personX feels embarrassed 
+
+oEffect :  ['none', 'they laugh']
+oReact :  ['none', 'annoyed']
+oWant :  ['none', 'to laugh']
+xAttr :  ['embarrassed', 'ashamed']
+xEffect :  ['blushes', 'cries']
+xIntent :  ['none', 'to be humble']
+xNeed :  ['none', 'to do something wrong']
+xReact :  ['embarrassed', 'ashamed']
+xWant :  ['to apologize', 'apologize']
+
+ personX feels excited 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to celebrate']
+xAttr :  ['excited', 'thrilled']
+xEffect :  ['jumps up and down', 'smiles']
+xIntent :  ['none', 'to be happy']
+xNeed :  ['none', 'to have a good time']
+xReact :  ['excited', 'happy']
+xWant :  ['to jump up and down', 'to celebrate']
+
+ personX feels faithful 
+
+oEffect :  ['none', 'they get married']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to be faithful']
+xAttr :  ['faithful', 'loyal']
+xEffect :  ['none', 'gets praised']
+xIntent :  ['none', 'to be faithful']
+xNeed :  ['none', 'to have a good heart']
+xReact :  ['faithful', 'happy']
+xWant :  ['to be faithful', 'to be faithful to someone']
+
+ personX feels furious 
+
+oEffect :  ['none', 'they are hurt']
+oReact :  ['none', 'scared']
+oWant :  ['none', 'to apologize']
+xAttr :  ['emotional', 'angry']
+xEffect :  ['gets in a fight', 'yells']
+xIntent :  ['none', 'to be angry']
+xNeed :  ['none', 'to have lost their job']
+xReact :  ['angry', 'upset']
+xWant :  ['to calm down', 'calm down']
+
+ personX feels grateful 
+
+oEffect :  ['none', 'smiles']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to thank personx']
+xAttr :  ['thankful', 'grateful']
+xEffect :  ['none', 'smiles']
+xIntent :  ['none', 'to be thankful']
+xNeed :  ['none', 'to have a good time']
+xReact :  ['happy', 'grateful']
+xWant :  ['to show appreciation', 'to show gratitude']
+
+ personX feels guilty 
+
+oEffect :  ['none', 'they are sad']
+oReact :  ['none', 'sad']
+oWant :  ['none', 'to forgive personx']
+xAttr :  ['remorseful', 'guilty']
+xEffect :  ['cries', 'frowns']
+xIntent :  ['none', 'to feel guilty']
+xNeed :  ['none', 'to have done something wrong']
+xReact :  ['guilty', 'ashamed']
+xWant :  ['to apologize', 'apologize']
+
+ personX feels hopeful 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to encourage him']
+xAttr :  ['hopeful', 'optimistic']
+xEffect :  ['none', 'smiles']
+xIntent :  ['none', 'to be optimistic']
+xNeed :  ['none', 'to have a good time']
+xReact :  ['hopeful', 'happy']
+xWant :  ['to hope for the best', 'to be successful']
+
+ personX feels impressed 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'impressed']
+oWant :  ['none', 'to thank personx']
+xAttr :  ['proud', 'impressed']
+xEffect :  ['none', 'smiles']
+xIntent :  ['none', 'to be impressed']
+xNeed :  ['none', 'to have a good job']
+xReact :  ['happy', 'impressed']
+xWant :  ['to impress others', 'to show off']
+
+ personX feels jealous 
+
+oEffect :  ['none', 'gets yelled at']
+oReact :  ['none', 'annoyed']
+oWant :  ['none', 'to make personx jealous']
+xAttr :  ['jealous', 'angry']
+xEffect :  ['none', 'gets yelled at']
+xIntent :  ['none', 'to be jealous']
+xNeed :  ['none', 'to have a jealous streak']
+xReact :  ['angry', 'jealous']
+xWant :  ['to be jealous', 'to get even']
+
+ personX feels joyful 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to celebrate']
+xAttr :  ['joyful', 'happy']
+xEffect :  ['smiles', 'laughs']
+xIntent :  ['none', 'to be happy']
+xNeed :  ['none', 'to have a good time']
+xReact :  ['joyful', 'happy']
+xWant :  ['to celebrate', 'to have fun']
+
+ personX feels lonely 
+
+oEffect :  ['none', 'gets lonely']
+oReact :  ['none', 'sad']
+oWant :  ['none', 'to talk to personx']
+xAttr :  ['lonely', 'sad']
+xEffect :  ['cries', 'none']
+xIntent :  ['none', 'to be alone']
+xNeed :  ['none', 'to have lost their friends']
+xReact :  ['sad', 'lonely']
+xWant :  ['to call someone', 'to find a new friend']
+
+ personX feels nostalgic 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to talk']
+xAttr :  ['nostalgic', 'reflective']
+xEffect :  ['none', 'thinks about past moments']
+xIntent :  ['none', 'to remember']
+xNeed :  ['none', 'to have lost something']
+xReact :  ['nostalgic', 'sad']
+xWant :  ['to reminisce', 'to reminisce about past moments']
+
+ personX feels prepared 
+
+oEffect :  ['none', 'they get to work on time']
+oReact :  ['none', 'impressed']
+oWant :  ['none', 'to thank personx']
+xAttr :  ['prepared', 'ready']
+xEffect :  ['none', 'gets a good grade']
+xIntent :  ['none', 'to be prepared']
+xNeed :  ['none', 'to have a good time']
+xReact :  ['prepared', 'ready']
+xWant :  ['to do well', 'to be successful']
+
+ personX feels proud 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'impressed']
+oWant :  ['none', 'to congratulate personx']
+xAttr :  ['proud', 'confident']
+xEffect :  ['smiles', 'none']
+xIntent :  ['none', 'to be successful']
+xNeed :  ['none', 'to have done well']
+xReact :  ['proud', 'accomplished']
+xWant :  ['to celebrate', 'celebrate']
+
+ personX feels sad 
+
+oEffect :  ['none', 'cries']
+oReact :  ['none', 'sad']
+oWant :  ['none', 'to console him']
+xAttr :  ['depressed', 'sad']
+xEffect :  ['cries', 'none']
+xIntent :  ['none', 'to be alone']
+xNeed :  ['none', 'to have lost something']
+xReact :  ['sad', 'depressed']
+xWant :  ['to cry', 'cry']
+
+ personX feels sentimental 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'happy']
+oWant :  ['none', 'to thank personx']
+xAttr :  ['emotional', 'sentimental']
+xEffect :  ['none', 'cries']
+xIntent :  ['none', 'to be sentimental']
+xNeed :  ['none', 'to have lost something']
+xReact :  ['nostalgic', 'sad']
+xWant :  ['to buy a gift', 'to think about something else']
+
+ personX feels surprised 
+
+oEffect :  ['none', 'they smile']
+oReact :  ['none', 'surprised']
+oWant :  ['none', 'to celebrate']
+xAttr :  ['surprised', 'shocked']
+xEffect :  ['none', 'jumps']
+xIntent :  ['none', 'to be surprised']
+xNeed :  ['none', 'to have received a gift']
+xReact :  ['surprised', 'shocked']
+xWant :  ['to celebrate', 'to smile']
+
+ personX feels terrified 
+
+oEffect :  ['none', 'they are scared']
+oReact :  ['none', 'worried']
+oWant :  ['none', 'to help them']
+xAttr :  ['scared', 'anxious']
+xEffect :  ['cries', 'screams']
+xIntent :  ['none', 'to be safe']
+xNeed :  ['none', 'to see something scary']
+xReact :  ['scared', 'terrified']
+xWant :  ['to run away', 'to hide']
+
+ personX feels trusting 
+
+oEffect :  ['none', 'trusts personx']
+oReact :  ['none', 'trusted']
+oWant :  ['none', 'to help him']
+xAttr :  ['trusting', 'open']
+xEffect :  ['none', 'smiles']
+xIntent :  ['none', 'to be trusting']
+xNeed :  ['none', 'to have a good understanding of people']
+xReact :  ['trusting', 'happy']
+xWant :  ['to be trusting', 'to trust']
