@@ -56,6 +56,17 @@ def compute_metrics(eval_pred_hidden):
         'roc': roc_auc_score(labels,softmax(predictions[0], axis=-1), multi_class='ovr', average='macro')
         }
 
+checkpoint_runid = {
+    'bert-base-uncased': '3mmzx9ty',
+    'distilbert-base-uncased':'1nncpbza', 
+    'distilbert-base-uncased-finetuned-sst-2-english' :'2g5jjqh2',
+    'bhadresh-savani/distilbert-base-uncased-emotion':'13ae8sug',
+    'roberta-base':'bpucrcgp',
+    'deepset/roberta-base-squad2':'2axmjc6a',
+    'arpanghoshal/EmoRoBERTa':'2ny4fnn2',
+    'sentence-transformers/all-MiniLM-L6-v2': 'cquhbtif',
+    'sentence-transformers/all-mpnet-base-v2': '30pmwvby'
+}
 
 
 if __name__ == '__main__':
@@ -71,7 +82,7 @@ if __name__ == '__main__':
     parser.add_argument("--device", default='cpu', type=str, help='device to use')
     parser.add_argument("--train", action='store_true')
     parser.add_argument("--no-train", dest='train', action='store_false')
-    parser.set_defaults(train=True)
+    parser.set_defaults(train=False)
     #parser.add_argument("--train", action=argparse.BooleanOptionalAction)
     #parser.add_argument("--use-wanb-model", action=argparse.BooleanOptionalAction)
 
@@ -82,16 +93,29 @@ if __name__ == '__main__':
 
     device = torch.device(args.device)
 
-    run = wandb.init(
-        project="emotion-vectors",
-        name = f"{args.checkpoint}-{args.loss}",
-        group="affect classification",
-        resume=True,
-        config={
+    # check if there is a run for this checkpoint. If there is, resume. Else, start new run
+    id = None
+    name = f"{args.checkpoint}-{args.loss}"
+
+    config = None
+    if args.train:
+        config = {
             "epochs": args.n_epochs,
             "batch_size": args.batch_size,
             "loss": args.loss
             }
+
+    if args.checkpoint in checkpoint_runid.keys():
+        print('run exists..resume previous run')
+        id = checkpoint_runid[args.checkpoint]
+        name = None
+    run = wandb.init(
+        project="emotion-vectors",
+        name = name,
+        id=id,
+        group="affect classification",
+        resume=True,
+        config=config
         )
 
     #run = wandb.init(project='emotion-vectors',id='pbucrcgp', resume=True) # roberta experiment id
